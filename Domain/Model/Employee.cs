@@ -1,9 +1,10 @@
-﻿using System;
+﻿#nullable disable
+
+using System;
 using System.Collections.Generic;
+using NorthwindDatabaseApplication.Model;
 
-#nullable disable
-
-namespace NorthwindDatabaseApplication.Model
+namespace NorthwindDatabaseApplication.Domain.Model
 {
     public partial class Employee
     {

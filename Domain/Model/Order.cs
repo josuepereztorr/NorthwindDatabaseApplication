@@ -1,9 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿
 
 #nullable disable
 
-namespace NorthwindDatabaseApplication.Model
+using System;
+using System.Collections.Generic;
+using NorthwindDatabaseApplication.Model;
+
+namespace NorthwindDatabaseApplication.Domain.Model
 {
     public partial class Order
     {

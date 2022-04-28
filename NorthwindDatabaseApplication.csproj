@@ -23,6 +23,15 @@
       <None Update="appsettings.json">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       </None>
+      <None Remove="Model\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Model\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Model\**" />
     </ItemGroup>
 
 </Project>

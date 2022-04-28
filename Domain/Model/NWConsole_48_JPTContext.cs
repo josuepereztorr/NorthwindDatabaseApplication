@@ -6,6 +6,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Configuration;
+using NorthwindDatabaseApplication.Domain.Model;
 
 namespace NorthwindDatabaseApplication.Model
 {
